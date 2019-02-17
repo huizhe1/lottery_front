@@ -1,0 +1,36 @@
+.display {
+  display: none;
+}
+.error {
+  width: 20%;
+  background-color: white;
+  height: 130px;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  opacity: 0.8;
+  left: 43%;
+}
+.error span {
+  display: inline-block;
+  margin-top: 44px;
+  line-height: 40px;
+  color: #c82333;
+}
+.bgclose {
+  background-image: url(../img/close.png);
+  display: block;
+  width: 32px;
+  height: 32px;
+  float: right;
+  position: relative;
+  right: 7px;
+  top: 5px;
+}
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
